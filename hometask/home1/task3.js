@@ -1,0 +1,11 @@
+let R1 = +prompt("Enter R1 :")
+let R2 = +prompt("Enter R2 :")
+let S1 = +prompt("Enter S1 :")
+let S2 = +prompt("Enter S2 :")
+let S3 = +prompt("Enter S3 :")
+S1 = Math.PI * (R1)
+S2 = Math.PI * (R2)
+S3 = S1 - S2
+alert(`S1 = ${S1} \n
+S2 = ${S2} \n
+S3 = ${S3}`)
